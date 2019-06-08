@@ -221,7 +221,7 @@ def display_data(df):
         while display_more.lower() != 'no':
             valid_input_2 = False
             while valid_input_2 == False:
-                display_more = input('\nWould you like to view more individual'
+                display_more = input('\nWould you like to view additional individual'
                                      ' trip data? Type \'yes\' or \'no\'.\n')
                 valid_input_2 = is_valid(display_more)
                 if valid_input_2 == True:
